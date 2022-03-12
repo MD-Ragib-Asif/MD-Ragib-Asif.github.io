@@ -40,7 +40,7 @@ $(document).ready(function(){
     var $typed = $("#typed");
     if ($typed.length > 0) {
       $typed.typed({
-        strings: ["Photographer ", "Web Designer", "Freelancer"],
+        strings: ["Photographer ", "Web Designer", "Student"],
         stringsElement: null,
         typeSpeed: 40,
         startDelay: 150,
