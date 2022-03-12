@@ -7,7 +7,7 @@ const day = hour*24;
 
 
 const countdown = () => {
-    const countDate = new Date('April 27,2022 00:00:00').getTime();
+    const countDate = new Date('March 15,2022 08:00:00').getTime(); //1st
     const now = new Date().getTime();
     const gap = countDate - now;
   
@@ -32,7 +32,7 @@ setInterval(countdown, 1000);
 
 // Set Deadline Function 
 const humdeadline = (lastDate) => {
-    const midTerm = "March 15,2022 23:30:00"
+    const midTerm = "March 15,2022 11:00:00" //2nd
     const countDate = new Date(midTerm).getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
@@ -68,7 +68,7 @@ setInterval(humdeadline,1000);
 
 // Set Deadline Function 
 const embDeadline = () => {
-    const midTerm = "March 12,2022 23:00:00"
+    const midTerm = "March 18,2022 23:59:59" //3rd
     const countDate = new Date(midTerm).getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
@@ -105,7 +105,7 @@ const embDeadline = () => {
 setInterval(embDeadline,1000);
 
 const bngDeadline = () => {
-    const midTerm = "March 14,2022 12:00:00"
+    const midTerm = "March 00,2022 23:59:59" //5th
     const countDate = new Date(midTerm).getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
@@ -143,7 +143,7 @@ setInterval(bngDeadline,1000);
 
 // --------
 const engDeadline = () => {
-    const midTerm = "March 12,2022 12:00:00"
+    const midTerm = "March 29,2022 23:59:59" //4th
     const countDate = new Date(midTerm).getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
@@ -171,10 +171,10 @@ const engDeadline = () => {
     }
 
     // setting to inner text
-    document.getElementById('eng-day').innerText = textDay;
-    document.getElementById('eng-hour').innerText = textHour;
-    document.getElementById('eng-minute').innerText = textMin;
-    document.getElementById('eng-second').innerText = textSec;
+    document.getElementById('cse-day').innerText = textDay;
+    document.getElementById('cse-hour').innerText = textHour;
+    document.getElementById('cse-minute').innerText = textMin;
+    document.getElementById('cse-second').innerText = textSec;
 }
 
 
