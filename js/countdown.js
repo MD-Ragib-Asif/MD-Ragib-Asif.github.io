@@ -7,7 +7,7 @@ const day = hour*24;
 
 
 const countdown = () => {
-    const countDate = new Date('March 22,2022 16:00:00').getTime(); //1st
+    const countDate = new Date('March 24,2022 16:00:00').getTime(); //1st
     const now = new Date().getTime();
     const gap = countDate - now;
   
@@ -68,7 +68,7 @@ setInterval(humdeadline,1000);
 
 // Set Deadline Function 
 const embDeadline = () => {
-    const midTerm = "March 18,2022 23:59:59" //3rd
+    const midTerm = "March 27,2022 20:00:00" //3rd
     const countDate = new Date(midTerm).getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
