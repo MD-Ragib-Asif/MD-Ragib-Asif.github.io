@@ -7,7 +7,7 @@ const day = hour*24;
 
 
 const countdown = () => {
-    const countDate = new Date('March 24,2022 16:00:00').getTime(); //1st
+    const countDate = new Date('March 29,2022 23:59:59').getTime(); //1st
     const now = new Date().getTime();
     const gap = countDate - now;
   
@@ -32,7 +32,7 @@ setInterval(countdown, 1000);
 
 // Set Deadline Function 
 const humdeadline = (lastDate) => {
-    const midTerm = "March 25,2022 15:00:00" //2nd
+    const midTerm = "April 2,2022 23:59:59" //2nd
     const countDate = new Date(midTerm).getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
@@ -68,7 +68,7 @@ setInterval(humdeadline,1000);
 
 // Set Deadline Function 
 const embDeadline = () => {
-    const midTerm = "March 27,2022 20:00:00" //3rd
+    const midTerm = "April 3,2022 16:00:00" //3rd
     const countDate = new Date(midTerm).getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
@@ -143,7 +143,7 @@ setInterval(bngDeadline,1000);
 
 // --------
 const engDeadline = () => {
-    const midTerm = "March 29,2022 23:59:59" //4th
+    const midTerm = "March 00,2022 23:59:59" //4th
     const countDate = new Date(midTerm).getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
