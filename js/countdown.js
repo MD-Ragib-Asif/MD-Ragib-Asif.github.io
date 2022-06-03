@@ -7,7 +7,7 @@ const day = hour*24;
 
 
 const countdown = () => {
-    const countDate = new Date('0 0 0 0').getTime(); //1st
+    const countDate = new Date('May 05,2023 23:59:59').getTime(); //1st
     const now = new Date().getTime();
     const gap = countDate - now;
   
