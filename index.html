@@ -72,10 +72,11 @@
 							<li><a href="#blog">Blog</a></li>
 							<li><a href="#contact">Contact</a></li>
 							<li><a href="#timer">Deadline</a></li>
+							<li><a href="#all_text"></a></li>	
 						</ul>
 					</div>
 					<div class="copy-right">
-						<p> <script>document.write( new Date().getFullYear() );</script> <br />Created By <a href="http://imragib.me">Ragib Asif</a>.</p>
+						<p> <script>document.write( new Date().getFullYear() );</script> <br />Created By <a href="https://raw.githubusercontent.com/MD-Ragib-Asif/CSE221_repo/master/assignment/LabSection04_21101083_CSE221LabAssignment02_Fall2022/task1.py?token=GHSAT0AAAAAABZI2B5KPJFYALN2IXSXAUDWY4YXBMQ">Ragib Asif</a>.</p>
 					</div>
 				</div>
 				<nav role="navigation" class="d-block d-xl-none">
@@ -493,6 +494,64 @@
 							Try to learn with in the given time.</p>
 						<p><span style="color: #20aa43;">Design & Dev by </span><span style="color: #ff3e3e;"> &copy; Md. Ragib Asif | Student of CSE<span></p>
 					</footer>
+				</section>
+
+				<section>
+					<div id="all_text">
+						<p>
+							"#sort
+							def ins_sort(arr):
+								for num in range(1,len(arr)):
+									t_val=arr[num]
+									temp=num-1
+									while temp>=0 and t_val>arr[temp]:
+										arr[temp+1]=arr[temp]
+										temp-=1
+									arr[temp+1]=t_val
+							
+							#reverse_sort
+							def insertionRev(lst):
+								for i in range(1,len(lst)):
+									key = lst[i]
+									j = i - 1
+									while j >= 0 and key > lst[j]:
+										lst[j+1] = lst[j]
+										j -= 1
+									lst[j+1] = key
+							
+							#merge_sort
+							def merge_sort(arr):
+								if len(arr) > 1:
+							
+									mid = len(arr)//2
+									L = arr[:mid]
+									R = arr[mid:]
+									merge_sort(L)
+									merge_sort(R)
+							
+									i,j,k = 0,0,0 
+							
+							
+									while i < len(L) and j < len(R):
+										if L[i] < R[j]:
+											arr[k] = L[i]
+											i += 1
+										else:
+											arr[k] = R[j]
+											j += 1
+										k += 1
+							
+									while i < len(L):
+										arr[k] = L[i]
+										i += 1
+										k += 1
+							
+									while j < len(R):
+										arr[k] = R[j]
+										j += 1
+										k += 1"
+						</p>
+					</div>
 				</section>
 
 				<section>
